@@ -1,14 +1,20 @@
 <div class="container">
-    <div >
-        <nav class="Row navbar navbar-light bg-light left  float-right" style="display: block;">
-           <form class="container-fluid justify-content-start">
-            <img src="../../assets/img/Logo.png" class="rounded float-left  logo">
-            <div class="dropdown">
-                <a class="nav-link offset-3 dropdown-toggle">Area Calculator
+    <div class="row top-nav">
+        <nav class="navbar navbar-light bg-light left float-right" style="display: block; padding-left: 0; margin-top: 10px;">
+           <form class="container-fluid justify-content-start fluid">
+            <img src="../../assets/img/Logo.png" class=" float-left  logo">
+            <div class="dropdown ps-4">
+                <a class="link dropdown-toggle" href="#" role="button" id="calc" data-bs-toggle="dropdown" aria-expanded="false">Area Calculator
                     <img src="../../assets/img/chev.png" class="nav-chev">
                 </a>
+                <ul class="dropdown-menu" aria-labelledby="calc">
+                    <li><a class="dropdown-item">One Room</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item">Multiple Rooms</a></li>
+                </ul>
             </div>
            </form>
         </nav>   
     </div>    
 </div>            
+<div class="dropdown">
