@@ -1,0 +1,12 @@
+@import url(../../../node_modules/bootstrap/);
+.dropdown-toggle::after {
+    display: none;
+}
+.nav-link{
+   float: left;
+}
+
+
+.div {
+    display: block;
+}
